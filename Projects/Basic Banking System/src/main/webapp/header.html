@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome To AVS Bank</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+	rel="stylesheet">
+
+<style>
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li, .a_header {
+	font-family: 'Arvo', serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+
+.header {
+	background-color: yellowgreen;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 30px 10%;
+	display: flex;
+}
+
+.logo {
+	cursor: pointer;
+	width: 150px;
+	height: 100px;
+	margin-right: auto;
+}
+
+.nav_links {
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: yellow;
+}
+</style>
+
+</head>
+<body>
+	<div class="header">
+
+		<img class="logo" src="images/283-2833648_icon-for-bank.png" alt="logo">
+		<nav>
+			<ul class="nav_links">
+				<li><a class="a_header" href="index.jsp">Home</a></li>
+				<li><a class="a_header" href="ViewAllUsers.jsp">View All Users</a></li>
+				<li><a class="a_header" href="TransferMoney.jsp">Transfer Money</a></li>
+				<li><a class="a_header" href="Transaction_history.jsp">Transaction History</a></li>
+			</ul>
+		</nav>
+
+	</div>
+</body>
+</html>
